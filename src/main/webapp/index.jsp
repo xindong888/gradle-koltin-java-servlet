@@ -11,7 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-<%="顶顶顶顶"%>
+<%
+    String b = "你好啊";
+    response.getWriter().println(b);
+%>
 这是一个好用的....
 </body>
 </html>
