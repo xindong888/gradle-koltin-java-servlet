@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServlet
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
 
-@WebServlet("/")
+@WebServlet("/a")
 class CustomServlet : HttpServlet() {
     override fun doGet(req: HttpServletRequest?, resp: HttpServletResponse?) {
         resp!!.setHeader("content-type", "text/html;charset=utf-8")
